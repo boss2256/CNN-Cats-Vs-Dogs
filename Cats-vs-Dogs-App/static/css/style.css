@@ -1,0 +1,42 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    margin-top: 20px;
+    background-image: url('../images/CatDog.png'); /* Background image */
+    height: 100vh;  /* Full height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 600px; /* Set maximum width for the container */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+h2 {
+    color: #007bff;
+}
+
+/* Form input styling */
+input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Submit button styling */
+button {
+    margin-top: 20px;
+}
+
+/* Prediction result styling */
+.alert {
+    margin-top: 20px;
+}
